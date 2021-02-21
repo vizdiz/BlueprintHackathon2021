@@ -5,7 +5,7 @@ import "../../utilities.css";
 import "./Skeleton.css";
 
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
-const GOOGLE_CLIENT_ID = "121479668229-t5j82jrbi9oejh7c8avada226s75bopn.apps.googleusercontent.com";
+const GOOGLE_CLIENT_ID = "1086561246825-0adgb8biv5ppvj51j22klppioc9v6fbl.apps.googleusercontent.com";
 
 class Skeleton extends Component {
   constructor(props) {
@@ -36,7 +36,12 @@ class Skeleton extends Component {
             onFailure={(err) => console.log(err)}
           />
         )}
-        <h1>Good luck on your project :)</h1>
+        
+      </>
+    );
+  }
+}
+/*<h1>Good luck on your project :)</h1>
         <h2> What we provide in this skeleton</h2>
         <ul>
           <li>Google Auth (Skeleton.js & auth.js)</li>
@@ -53,9 +58,5 @@ class Skeleton extends Component {
           <li>Add a favicon to your website at the path client/dist/favicon.ico</li>
           <li>Update website title in client/dist/index.html</li>
         </ul>
-      </>
-    );
-  }
-}
-
+        */
 export default Skeleton;

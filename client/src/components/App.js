@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Router } from "@reach/router";
 import NotFound from "./pages/NotFound.js";
 import Skeleton from "./pages/Skeleton.js";
+import ClassBar from "./pages/ClassBar.js";
+import AssignmentBar from "./pages/AssignmentBar.js";
 
 import "../utilities.css";
 
@@ -54,8 +56,12 @@ class App extends Component {
             handleLogout={this.handleLogout}
             userId={this.state.userId}
           />
+          <ClassBar />
+          <AssignmentBar />
           <NotFound default />
+          <h1>tefdsafdsast</h1>
         </Router>
+        <h1>test</h1>
       </>
     );
   }
