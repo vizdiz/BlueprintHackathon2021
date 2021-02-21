@@ -56,8 +56,8 @@ class App extends Component {
             handleLogout={this.handleLogout}
             userId={this.state.userId}
           />
-          <ClassBar />
-          <AssignmentBar />
+          {/* <ClassBar />
+          <AssignmentBar /> */}
           <NotFound default />
           <h1>tefdsafdsast</h1>
         </Router>
